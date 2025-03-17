@@ -1,0 +1,96 @@
+.fixed-top {
+  background: transparent;
+}
+
+/* .Main-navbar-color{
+  background-color: transparent;
+  color: transparent;
+} */
+
+.img_logo {
+  width: 10%;
+}
+
+.Main_logo_craft {
+  width: 80px;
+}
+
+.Main_logo_craft:hover {
+  cursor: url(./Image/Mouse_couser_1-removebg-preview.png), pointer;
+}
+
+.Item_name {
+  font-weight: 600;
+}
+
+.Item_name:hover {
+  cursor: url(./Image/Mouse_couser_1-removebg-preview.png), pointer;
+}
+
+.Item_name_link {
+  font-weight: 600;
+  font-size: normal;
+  text-decoration: none;
+  color: black;
+}
+
+.Item_name_link:hover {
+  cursor: url(./Image/Mouse_couser_1-removebg-preview.png), pointer;
+}
+
+.Item_name_link:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 5px;
+  width: 100%;
+  background: #4070f4;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transition: transfrom 1s linear;
+}
+
+.Item_name_link:hover:before {
+  transform: scaleX(1);
+}
+
+.Main_screen_size {
+  gap: 30%;
+}
+
+/* Screen size so be save */
+
+@media only screen and (max-width: 620px) {
+  .Main_screen_size {
+    gap: 15%;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .Main_screen_size {
+    gap: 10%;
+  }
+  .Item_name_link {
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .Main_screen_size {
+    gap: 10%;
+  }
+  .Item_name_link {
+    font-weight: 600;
+    font-size: 10px;
+  }
+}
+
+/* @media only screen and (max-width: 560px) {
+
+  .Main_screen_size{
+    visibility: hidden;
+  }
+
+} */

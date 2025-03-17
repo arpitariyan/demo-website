@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Footer_set{
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 20px;
+}
+
+.Footer_set > hr {
+    padding-left: 10%;
+    padding-right: 10%;
+  color: #757575;
+}
+
+.Icon_set_1 > p {
+  color: #757575;
+  font-weight: 600;
+}
+
+.Icon_set {
+  text-decoration: none;
+  color: #757575;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.Icon_set:hover {
+  cursor: url(./images/Group_1-removebg-preview.png), pointer;
+}
+
+.Icon_set_2 {
+  text-decoration: none;
+  color: #757575;
+  display: flex;
+}
+
+.Icon_set_2 > p {
+  margin-left: 3%;
+}
+
+.Icon_set_3 {
+  text-decoration: none;
+  color: #757575;
+  display: flex;
+}
+
+.Icon_set_2:hover {
+  cursor: url(./images/Group_1-removebg-preview.png), pointer;
+}
+
+.Main_logo_1 {
+  display: flex;
+  justify-content: center;
+}
+
+.Main_logo_1 > img {
+  width: 50%;
+  height: 70%;
+  margin-top: 20px;
+}
+
+.Copyright > p {
+  color: #757575;
+}
+
+.Copyright > h6 {
+  color: #757575;
+  font-weight: 600;
+  margin-left: 1%;
+  margin-top: 3px;
+}
+
+@media only screen and (max-width: 900px) {
+  .Main_logo_1 {
+    margin-bottom: 20px;
+  }
+
+  .Main_logo_1 > img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}

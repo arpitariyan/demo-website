@@ -1,0 +1,648 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: #e2ecf6; */
+}
+
+.Img_set {
+  width: 100%;
+}
+
+.Mouse_select:hover {
+  cursor: url(./Images/Mouse_couser_1-removebg-preview.png), pointer;
+}
+
+.About_me_button:hover {
+  cursor: url(./Images/Mouse_couser_1-removebg-preview.png), pointer;
+}
+
+.About_me_button > p {
+  font-weight: 600;
+  font-size: 100%;
+  margin-top: 10px;
+}
+
+.Mouse_select_1 {
+  text-decoration: none;
+  color: #4070f4;
+  border-color: #4070f4;
+  padding: 5px 20px;
+  font-weight: 600;
+}
+
+.Mouse_select_1:hover {
+  cursor: url(./Images/Mouse_couser_1-removebg-preview.png), pointer;
+}
+
+.Mouse_select_3:hover {
+  cursor: url(./Images/Mouse_couser_1-removebg-preview.png), pointer;
+}
+
+.Mouse_select_3 {
+  font-weight: 600;
+}
+
+.Mouse_select_2:hover {
+  cursor: url(./Images/Mouse_couser_1-removebg-preview.png), pointer;
+}
+
+.Mouse_select_2 {
+  text-decoration: none;
+  color: #4070f4;
+  border-color: #4070f4;
+  margin-left: 5%;
+}
+
+.Home_first_design {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.Font_set {
+  font-weight: 600;
+  font-size: 100%;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.Font_set_1 {
+  font-weight: 600;
+  font-size: 100%;
+  font-family: "Courier New", Courier, monospace;
+  color: #4070f4;
+}
+
+.Font_set_2 {
+  font-weight: 600;
+  font-size: 150px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.Font_set_3 {
+  font-weight: 600;
+  font-size: 150px;
+  font-family: "Courier New", Courier, monospace;
+  color: #4070f4;
+}
+
+.Font_set_4 {
+  font-weight: 600;
+  font-size: 150px;
+  font-family: "Courier New", Courier, monospace;
+  color: #4070f4;
+  margin-top: -20px;
+}
+
+.Font_set_5 {
+  color: rgb(94, 94, 94);
+  font-size: 100%;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.About_me {
+  background-image: url(./Images/Arpit_about_me.jpg);
+  width: 100%;
+}
+
+.About_me_1 {
+  display: flex;
+  justify-content: center;
+}
+
+.About_me_1 img {
+  width: 70%;
+}
+
+.Details {
+  margin-top: 3%;
+}
+
+.Details hr {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.Details_1 {
+  color: #4070f4;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 10%;
+}
+
+.Details_2 {
+  color: #000000;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.Details_3 {
+  color: #666666;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.About_font_design {
+  font-size: 100%;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.About_font_design_1 {
+  font-size: 100%;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.About_font_design_2 img {
+  width: 40%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.About_button button {
+  margin-left: 20%;
+  border-radius: 100%;
+  height: 22%;
+  width: 20%;
+  margin-top: -20%;
+  font-weight: 600;
+  background-color: white;
+}
+
+.Button_thik {
+  text-decoration: none;
+  color: #4070f4;
+}
+
+.page {
+  position: absolute;
+}
+
+.loop {
+  display: flex;
+  width: 100%;
+  /* background-color: #e2ecf6; */
+  font-family: "Courier New", Courier, monospace;
+  font-size: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.loop > h1 {
+  font-weight: 400;
+  animation-name: anim;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.loop > h1 > span {
+  -webkit-text-stroke: 1.2px black;
+  color: transparent;
+}
+
+@keyframes anim {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.page_2 {
+  position: absolute;
+}
+
+.loop_2 {
+  display: flex;
+  width: 100%;
+  /* background-color: #e2ecf6; */
+  font-family: "Courier New", Courier, monospace;
+  font-size: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.loop_2 > h1 {
+  font-weight: 400;
+  animation-name: anim_2;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.loop_2 > h1 > span {
+  -webkit-text-stroke: 1.2px black;
+  color: transparent;
+}
+
+@keyframes anim_2 {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.Classic_mod {
+  display: flex;
+  justify-content: center;
+}
+
+.Classic_mod > img {
+  width: 60%;
+  border-radius: 10px;
+  box-shadow: 0px 2px 35px 2px rgb(187, 205, 255);
+  margin-top: 5%;
+}
+
+.Classic_mod_2 {
+  margin-top: 0.5%;
+}
+
+.Classic_mod_2 > p {
+  margin-right: 10%;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 10%;
+}
+
+.Classic_mod_2 button {
+  margin-left: 5%;
+}
+
+.Fun_effect {
+  background-image: url(./Images/Fun_fact.jpg);
+  width: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.counter {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+/* .Success_1{
+  display: flex;
+  justify-content: center;
+} */
+
+.Success_1 > hr {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.Success_2 {
+  display: flex;
+  justify-content: center;
+  background-color: #e2ecf6;
+}
+
+.Success_2 > img {
+  width: 70%;
+}
+
+.Success_3 > img {
+  width: 40%;
+}
+
+.Success_3 {
+  display: flex;
+  justify-content: center;
+}
+
+.Success_4 > img {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.Success_4 {
+  display: flex;
+  justify-content: center;
+}
+
+.Work_1 {
+  display: flex;
+  justify-content: center;
+}
+
+.Work_1 > img {
+  width: 80%;
+}
+
+.Work_5 {
+  display: flex;
+  justify-content: center;
+}
+
+.Work_5 > img {
+  width: 90%;
+}
+
+.Work_3 {
+  display: flex;
+  gap: 2%;
+  margin-top: 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.Work_3 > .Work_main_1 {
+  box-shadow: none;
+  background-color: #4070f4;
+}
+
+.Work_main_1 {
+  display: flex;
+  justify-content: center;
+  padding: 2% 1% 2% 1%;
+}
+
+.Work_main_1 > img {
+  width: 50%;
+}
+
+.Service_1 > img {
+  width: 85%;
+}
+
+.Service_1 > p {
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 25px;
+}
+
+.Service_2 > img {
+  width: 100%;
+}
+
+.Service_2 > p {
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 25px;
+}
+
+.Service_3 > p {
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+/* Swiper Start */
+
+.Swiper_best {
+  background-image: url(./Images/Colorful\ Fluid\ Linktree\ Background.png);
+  width: 100%;
+  background-color: #e2ecf6;
+}
+
+.Swipe_1 > h6 {
+  margin-top: 10%;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  color: #4070f4;
+}
+
+.Swipe_1 > h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+
+.Main_test_img > img {
+  width: 100%;
+  height: 100%;
+}
+
+.Main_test_img:hover {
+  cursor: url(./Images/Mouse_couser_1-removebg-preview.png), pointer;
+}
+
+.swiper {
+  width: 340px;
+  height: 420px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Swapir End */
+
+.Contact_us > img {
+  width: 10%;
+  height: 10%;
+}
+
+.Contact_us > h6 {
+  font-weight: 600;
+  font-family: monospace;
+  margin-top: 3%;
+}
+
+.Contact_us > p {
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.about_please {
+  background-image: url(./Images/ARPIT.png);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+
+.Card_modify {
+  width: 150px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.Card_modify_1 {
+  font-size: 30px;
+  padding-left: 20px;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+  color: #4070f4;
+}
+
+.Card_modify_2 {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+  color: #505050;
+}
+
+.Card_modify_3:hover {
+  cursor: url(./Images/Mouse_couser_1-removebg-preview.png), pointer;
+}
+
+.Card_modify_4 {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #4070f4;
+  border-color: #4070f4;
+}
+
+.Card_modify_4:hover {
+  cursor: url(./Images/Mouse_couser_1-removebg-preview.png), pointer;
+}
+
+/* Animation Body */
+@keyframes appear {
+  from {
+    opacity: 50;
+    clip-path: inset(70% 0 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+.animation_body {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 11%;
+}
+
+/* Animation Body End */
+
+/* screen size setup */
+@media only screen and (max-width: 1700px) {
+  .Font_set_2 {
+    font-size: 130px;
+  }
+  .Font_set_3 {
+    font-size: 130px;
+  }
+  .Font_set_4 {
+    font-size: 130px;
+  }
+}
+
+@media only screen and (max-width: 1475px) {
+  .Font_set_2 {
+    font-size: 110px;
+  }
+  .Font_set_3 {
+    font-size: 110px;
+  }
+  .Font_set_4 {
+    font-size: 110px;
+  }
+}
+
+@media only screen and (max-width: 1245px) {
+  .Font_set_2 {
+    font-size: 90px;
+  }
+  .Font_set_3 {
+    font-size: 90px;
+  }
+  .Font_set_4 {
+    font-size: 90px;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .Font_set_2 {
+    font-size: 70px;
+  }
+  .Font_set_3 {
+    font-size: 70px;
+  }
+  .Font_set_4 {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 825px) {
+  .About_me_button > p {
+    visibility: hidden;
+  }
+  .input_ready {
+    margin-left: 65%;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .input_ready {
+    margin-left: 85%;
+  }
+
+  .Work_3 > .Work_main_1 {
+    width: 10%;
+    height: 10%;
+    margin-top: 10px;
+  }
+
+  .Contact_us > img {
+    width: 10%;
+    height: 5%;
+  }
+
+  .Contact_us > h6 {
+    margin-top: 1%;
+  }
+}
+
+@media only screen and (max-width: 595px) {
+  .Swiper_mian {
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  .input_ready {
+    margin-left: 105%;
+  }
+  /* .Swiper_mian {
+    margin-left: 10%;
+  } */
+}
+
+@media only screen and (max-width: 465px) {
+  .input_ready {
+    margin-left: 135%;
+  }
+  .Swiper_mian {
+    margin-left: 3%;
+  }
+  .swiper {
+    width: 240px;
+    height: 320px;
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .Font_set_2 {
+    font-size: 50px;
+  }
+  .Font_set_3 {
+    font-size: 50px;
+  }
+  .Font_set_4 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 345px) {
+  .input_ready {
+    margin-left: 225%;
+  }
+}
